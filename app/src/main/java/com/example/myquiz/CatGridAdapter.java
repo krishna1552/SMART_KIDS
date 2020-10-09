@@ -44,16 +44,20 @@ public class CatGridAdapter extends BaseAdapter {
             public void onClick(View view) {
                 switch(position){
                     case 0:
-                        Toast.makeText(view.getContext(), "Building in progress, you get lost sir", Toast.LENGTH_SHORT).show();
-                            break;
+                        Intent intent = new Intent(parent.getContext(),ReadingActivity.class);
+                        intent.putExtra("CATEGORY",catList.get(position));
+                        parent.getContext().startActivity(intent);
+                        break;
                     case 1:
-                        Intent intent = new Intent(parent.getContext(),ColoringGame.class);
+                        intent = new Intent(parent.getContext(),ColoringGame.class);
                         intent.putExtra("CATEGORY",catList.get(position));
                         parent.getContext().startActivity(intent);
                         break;
                     case 2:
+                        Toast.makeText(view.getContext(), "Building in progress, you get lost sir", Toast.LENGTH_SHORT).show();
                         break;
                     case 3:
+                        Toast.makeText(view.getContext(), "Building in progress, you get lost sir", Toast.LENGTH_SHORT).show();
                         break;
                     case 4:
                         intent = new Intent(parent.getContext(), QuestionActivity.class);
@@ -61,7 +65,7 @@ public class CatGridAdapter extends BaseAdapter {
                         parent.getContext().startActivity(intent);
                         break;
                     case 5:
-                        intent = new Intent(parent.getContext(), MemoryGame.class);
+                        intent = new Intent(parent.getContext(), Memory_game.class);
                         intent.putExtra("CATEGORY",catList.get(position));
                         parent.getContext().startActivity(intent);
                         break;

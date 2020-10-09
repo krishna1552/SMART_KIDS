@@ -13,7 +13,7 @@
         android:id="@+id/toolbaroncoloring"
         android:layout_width="match_parent"
         android:layout_height="?android:actionBarSize"
-        android:background="@color/colorAccent"
+        android:background="@color/red"
         app:popupTheme="@style/AppTheme.AppBarOverlay"/>
 
 

@@ -3,4 +3,84 @@
     <string name="quizzz">Quizzz</string>
     <string name="start">START</string>
     <string name="todo">TODO</string>
+    <string name="text"></string>
+
+    <string-array name="title_story">
+        <item>Garmi</item>
+        <item>story2</item>
+        <item>story3</item>
+        <item>story4</item>
+        <item>story5</item>
+
+    </string-array>
+
+    <string-array name="detailed_story">
+        <item>Arre yaar koyi AC chalao na yaar
+
+Sahi hai!
+
+Baaki saare fake lagein
+Dekh ke tujhko break lage
+Door door se theek hai raani
+Paas aaun to sake lage
+
+Para itna high hua ki
+Thermometer toot gaya
+Saiyan ji ka tapak tapak kar
+Haaye paseena chhoot gaya
+
+Khaali gunda gardi hai
+Bandi tu bedardi hai
+Sardi mein bhi kar di hai
+Kar di hai, kar di hai
+Kar di, kar di, kar di, kar di
+
+Haaye garmi
+Haaye garmi
+Haaye garmi
+Haaye garmi
+
+December mein kardi summer
+Tu Lamborghini main hoon Hummer
+Waise bhi koyi jaldi nai mujhko
+Main bachpan se hi main latecomer
+
+Million mein tu baby ek
+Hilti kamar jaise snake
+Teri sundarta pe likh doon
+Baby do foot lamba lekh
+
+Kar doon 100 baat ki ek
+Legi mujhko tu matha tek
+Garmi kehte hain kisko
+Tu mujhko gale laga ke dekh
+
+Aise na tu dekh pare
+Dil kyun mera break kare
+Laal dress mein raani bilkul
+Red velvet ka cake lage
+
+Tere jaise jaane kitno ke
+Dil chaknachoor huye
+Mere peechhe mar ke aashiq
+Kitne hi mash-hoor huye
+
+Khaali gunda gardi hai
+Sardi mein bhi kar di hai
+Kar di hai, kar di hai
+
+Haaye garmi
+Haaye garmi
+Haaye garmi
+
+Garmi garmi garmi garmi
+Haaye garmi
+Garmi garmi garmi garmi
+Haaye garmi</item>
+        <item>story2</item>
+        <item>story3</item>
+        <item>story4</item>
+        <item>story5</item>
+
+    </string-array>
 </resources>

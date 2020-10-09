@@ -4,4 +4,32 @@
     <color name="colorPrimaryDark">#9B1515</color>
     <color name="colorAccent">#FFFFFF</color>
     <color name="blue">#1e90ff</color>
+
+    <color name="gris_light">#E2dfe1</color>
+
+    <color name="red_light">#ff605c</color>
+    <color name="orange_light">#ffbd44</color>
+    <color name="green_light">#00ca4e</color>
+    <color name="gris_dark">#c0bfc0</color>
+    <color name="item_toolbar">#171616</color>
+    <color name="red">#ff0000</color>
+    <color name="blue_dark">#053D73</color>
+    <color name="green_dark">#0B6A23</color>
+
+    <array name="demo_colors">
+        <item>@color/colorAccent</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/gris_light</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/blue</item>
+        <item>@color/item_toolbar</item>
+        <item>@color/gris_dark</item>
+        <item>@color/orange_light</item>
+        <item>@color/red</item>
+        <item>@color/red_light</item>
+        <item>@color/blue_dark</item>
+        <item>@color/green_dark</item>
+        <item>@color/green_light</item>
+
+    </array>
 </resources>

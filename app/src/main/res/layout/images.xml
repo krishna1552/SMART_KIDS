@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context=".MemoryGame">
+    tools:context=".Memory_game">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,23 +18,25 @@
             android:id="@+id/iv_11"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
-            android:layout_height="150dp"/>
+            android:layout_height="150dp"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/iv_12"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
-            android:layout_height="150dp"/>
+            android:layout_height="150dp"
+            android:contentDescription="TODO" />
 
         <ImageView
             android:id="@+id/iv_13"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -43,7 +44,7 @@
             android:id="@+id/iv_14"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -62,7 +63,7 @@
             android:id="@+id/iv_21"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -70,7 +71,7 @@
             android:id="@+id/iv_22"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -78,7 +79,7 @@
             android:id="@+id/iv_23"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -86,7 +87,7 @@
             android:id="@+id/iv_24"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -103,7 +104,7 @@
             android:id="@+id/iv_31"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -111,7 +112,7 @@
             android:id="@+id/iv_32"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -119,7 +120,7 @@
             android:id="@+id/iv_33"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -127,7 +128,7 @@
             android:id="@+id/iv_34"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -144,7 +145,7 @@
             android:id="@+id/iv_41"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -152,7 +153,7 @@
             android:id="@+id/iv_42"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -160,7 +161,7 @@
             android:id="@+id/iv_43"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
 
@@ -168,16 +169,8 @@
             android:id="@+id/iv_44"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            android:src="@drawable/animal_text3"
+            android:src="@drawable/ic_back"
             android:layout_width="match_parent"
             android:layout_height="150dp"/>
-
     </LinearLayout>
-
-
-
-
-
-
-
 </LinearLayout>

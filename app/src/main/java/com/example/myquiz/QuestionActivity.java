@@ -55,10 +55,10 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         questionList = new ArrayList<>();
 
         questionList.add(new QuestionGK("Question 1","A","B","C","D",2));
-        questionList.add(new QuestionGK("Question 2","C","B","D","A",2));
-        questionList.add(new QuestionGK("Question 3","C","B","A","D",2));
-        questionList.add(new QuestionGK("Question 4","A","D","C","B",2));
-        questionList.add(new QuestionGK("Question 5","C","D","A","D",2));
+        questionList.add(new QuestionGK("Question 2","C","B","D","A",1));
+        questionList.add(new QuestionGK("Question 3","C","B","A","D",4));
+        questionList.add(new QuestionGK("Question 4","A","D","C","B",3));
+        questionList.add(new QuestionGK("Question 5","C","D","A","B",2));
 
         setQuestion();
     }

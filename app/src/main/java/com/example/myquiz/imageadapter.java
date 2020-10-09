@@ -2,6 +2,7 @@ package com.example.myquiz;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.example.myquiz.Interface.ImageOnClick;
+import com.example.myquiz.common.Common;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,28 +30,30 @@ public class imageadapter extends RecyclerView.Adapter<ImageViewHolder> {
 
     private List<Integer> getImages(){
         List<Integer> results  = new ArrayList<>();
-        results.add(R.drawable.unicorn_drawing_cfk1);
-        results.add(R.drawable.images_cfk7_s2);
-        results.add(R.drawable.images_cfk8);
-        results.add(R.drawable.download_cfk10);
-        results.add(R.drawable.download_cfk6);
-        results.add(R.drawable.download_cfk9_s2);
-        results.add(R.drawable.download_cfk10);
-        results.add(R.drawable.download_cfk11_s2);
-        results.add(R.drawable.images_cfk12_s2);
-        results.add(R.drawable.images_cfk13_s2);
-        results.add(R.drawable.images_cfk14_s2);
-        results.add(R.drawable.images_cfk15_s2);
-        results.add(R.drawable.images_cfk16_s2);
-        results.add(R.drawable.images_cfk17_s2);
-        results.add(R.drawable.images_cfk18_s3);
-        results.add(R.drawable.images_cfk19);
-        results.add(R.drawable.images_cfk20);
-        results.add(R.drawable.images_cfk21_s2);
-        results.add(R.drawable.images_cfk22);
-        results.add(R.drawable.images_cfk23);
-        results.add(R.drawable.images_cfk24_s2);
-        results.add(R.drawable.images_cfk25);
+        results.add(R.drawable.image_01);
+        results.add(R.drawable.image_02);
+        results.add(R.drawable.image_03);
+        results.add(R.drawable.image_04);
+        results.add(R.drawable.image_05);
+        results.add(R.drawable.image_06);
+        results.add(R.drawable.image_07);
+        results.add(R.drawable.image_08);
+        results.add(R.drawable.image_09);
+        results.add(R.drawable.image_10);
+        results.add(R.drawable.image_11);
+        results.add(R.drawable.image_12);
+        results.add(R.drawable.image_13);
+        results.add(R.drawable.image_14);
+        results.add(R.drawable.image_15);
+        results.add(R.drawable.image_16);
+        results.add(R.drawable.image_17);
+        results.add(R.drawable.image_18);
+        results.add(R.drawable.image_19);
+        results.add(R.drawable.image_20);
+        results.add(R.drawable.image_21);
+        results.add(R.drawable.image_22);
+        results.add(R.drawable.image_23);
+        results.add(R.drawable.image_24);
 
         return results;
 
@@ -66,6 +71,14 @@ public class imageadapter extends RecyclerView.Adapter<ImageViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ImageViewHolder holder, int position) {
         holder.imageView.setImageResource(listImages.get(position));
+
+        holder.setImageOnClick ( new ImageOnClick () {
+            @Override
+            public void onClick(int pos) {
+                Common.PICTURE_SELECTED = listImages.get ( pos );
+                mContext.startActivity ( new Intent (mContext,PaintActivity.class));
+            }
+        } );
     }
 
     @Override
