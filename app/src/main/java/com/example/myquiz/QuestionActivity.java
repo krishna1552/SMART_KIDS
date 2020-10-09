@@ -54,11 +54,11 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     private void getQuestionsList(){
         questionList = new ArrayList<>();
 
-        questionList.add(new QuestionGK("Question 1","A","B","C","D",2));
-        questionList.add(new QuestionGK("Question 2","C","B","D","A",1));
-        questionList.add(new QuestionGK("Question 3","C","B","A","D",4));
-        questionList.add(new QuestionGK("Question 4","A","D","C","B",3));
-        questionList.add(new QuestionGK("Question 5","C","D","A","B",2));
+        questionList.add(new QuestionGK("What is 5*5?","5","25","10","none of the above",2));
+        questionList.add(new QuestionGK("CHOOSE A REPTILE.","Lizard","Cow","Fish","Parrot",1));
+        questionList.add(new QuestionGK("COLOUR OF FRUIT ORANGE","RED","GREEN","YELLOW","ORANGE",4));
+        questionList.add(new QuestionGK("THIRD PLANET OF SOLAR SYSTEM","VENUS","MARS","EARTH","JUPITER",3));
+        questionList.add(new QuestionGK("ALBERT EINSTEIN WAS A FAMOUS?","CRICKETER","SCIENTIST","ARTIST","BUSINESSMAN",2));
 
         setQuestion();
     }

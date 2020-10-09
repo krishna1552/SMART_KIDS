@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+
 public class ReadingActivity2 extends AppCompatActivity {
 
     TextView textView;
@@ -20,7 +21,7 @@ public class ReadingActivity2 extends AppCompatActivity {
         String dstory = getIntent().getStringExtra("story");
 
         textView.setText(dstory);
-        mysong = MediaPlayer.create(ReadingActivity2.this, R.raw.garmi);
+        mysong = MediaPlayer.create(ReadingActivity2.this, R.raw.haircut);
     }
 
     public void playIT(View v) {
