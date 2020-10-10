@@ -54,10 +54,10 @@ public class CatGridAdapter extends BaseAdapter {
                         parent.getContext().startActivity(intent);
                         break;
                     case 2:
-                        Toast.makeText(view.getContext(), "Building in progress, you get lost sir", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(view.getContext(), "Building in progress", Toast.LENGTH_SHORT).show();
                         break;
                     case 3:
-                        Toast.makeText(view.getContext(), "Building in progress, you get lost sir", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(view.getContext(), "Building in progress", Toast.LENGTH_SHORT).show();
                         break;
                     case 4:
                         intent = new Intent(parent.getContext(), QuestionActivity.class);
